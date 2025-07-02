@@ -15,24 +15,18 @@
         <h1 style="font-family: 'Poppins';">Create Account</h1>
 
 
-        <label for="firstname" style="color: #21C097;">First name*</label><br>
+        <label for="firstname" style="color: #21C097;">First name*</label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="lastname" style="color: #21C097;">Last name</label><br>
         <input type="text" id="firstname" name="firstname" required placeholder="Enter Your First Name">
-
-        <label for="lastname" style="color: #21C097;">Last name</label>
-        <input type="text" id="lastname" name="lastname" required placeholder="Enter Your Last Name"><br><br>
-
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" id="lastname" name="lastname" required placeholder="Enter Your Last Name"><br><br>
         <label for="email" style="color: #21C097;">Email*</label><br>
-        <input type="email" id="email" name="email" required placeholder="Enter Your Email"><br><br>
+        <input type="email" id="email" name="email" size="65" required placeholder="Enter Your Email"><br><br>
 
-        <label for="password" style="color: #21C097;">Password*</label><br>
+        <label for="password" style="color: #21C097;">Password*</label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="confirmpassword" style="color: #21C097;">Confirm Password*</label><br>
         <input type="password" id="password" name="password" required placeholder="Enter Your Password">
-
-        <label for="confirmpassword" style="color: #21C097;">Confirm Password*</label>
-        <input type="password" id="confirmpassword" name="confirmpassword" required
-            placeholder="Enter Your Password again"><br><br>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="password" id="confirmpassword" name="confirmpassword" required placeholder="Enter Your Password again"><br><br>
 
 
-        <label for="gender" style="color: #21C097;">Gender:</label><br>
+        <label for="gender" style="color: #21C097;">Gender:</label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="hobbies" style="color: #21C097;">Hobbies</label><br>
         <input type="radio" id="male" name="gender">
         <label for="male">Male</label>
 
@@ -41,8 +35,8 @@
 
         <input type="radio" id="others" name="gender">
         <label for="others">Others</label>
-        <label for="hobbies" style="color: #21C097;">Hobbies</label>
-        <input type="checkbox" id="movies" name="hobbies[]" value="movies">
+      
+        &emsp;&emsp;&emsp;&emsp;<input type="checkbox" id="movies" name="hobbies[]" value="movies">
         <label for="movies">Movies</label>
         <input type="checkbox" id="sports" name="hobbies[]" value="sports">
         <label for="sports">Sports</label>
@@ -51,7 +45,7 @@
         <input type="checkbox" id="music" name="hobbies[]" value="music">
         <label for="music">Music</label><br><br>
 
-        <label for="income" style="color: #21C097;"> Source Of Income</label><br>
+        <label for="income" style="color: #21C097;"> Source Of Income</label>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; <label for="incomeamount"  style="color: #21C097;">Income</label><br>
         <select name="income" id="income">
 
             <option value="employed">Employed</option>
@@ -60,27 +54,28 @@
 
         </select>
 
-        <label for="incomeamount">Income</label>
-        <input type="range" name="amountRange" min="0" max="20" value="0"
+        
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="range" name="amountRange" min="0" max="20" value="0"
             oninput="this.form.amountInput.value=this.value" />
         <input type="number" name="amountInput" min="0" max="20" value="0"
             oninput="this.form.amountRange.value=this.value" /><br><br>
 
-        <label for="file" style="color: #21C097;"> Choose a File:</label><br>
+        <label for="file" style="color: #21C097;"> Choose a File:</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <label for="age" style="color: #21C097;">Age</label><br>
         <input type="file" id="file" name="file">
 
 
 
-        <label for="age" style="color: #21C097;">Age</label>
-        <input type="number" id="age" name="age" required placeholder="Enter Your Age"><br><br>
+        
+        &emsp;&emsp;&emsp;<input type="number" id="age" name="age" required placeholder="Enter Your Age"><br><br>
 
 
         <label for="bio" style="color: #21C097;">Bio</label><br>
-        <textarea rows="3"></textarea><br><br>
+        <textarea rows="5" cols="65"></textarea><br><br>
 
 
 
-        <input type="submit" value="Create" style="background-color: #21C097; border: none; color: #FAFAFA; width: 125px; height: 30px;">
+        <input type="submit" value="Create"
+            style="background-color: #21C097; border: none; border-radius: 3px; color: #FAFAFA; width: 125px; height: 30px;">
     </form>
 </body>
 
