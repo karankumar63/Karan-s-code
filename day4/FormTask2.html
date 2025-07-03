@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>STUDENT REGISTRATION FORM</title>
+</head>
+
+<body>
+    <h2 align="center">
+        <font face="Poppins" color="#6B5ACD"><u>STUDENT REGISTRATION FORM</u></font>
+    </h2>
+    <form action="/submit" methon="post">
+        <table align="center" border="0" cellpadding="10" bgcolor="#6B5ACD" text="#FFFFFF">
+            <tr>
+                <td>
+                    <label for="firstname">
+                        <font face="Poppins" color="white">FIRST NAME</font>
+                    </label>
+                </td>
+                <td><input type="text" maxlength="30" />
+                    <label for="firstname">
+                        <font face="Poppins" color="white">(max 30 characters a-z And A-Z)</font>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lastname">
+                        <font face="Poppins" color="white">LAST NAME</font>
+                    </label>
+                </td>
+                <td><input type="text" maxlength="30" />
+                    <label for="lastname">
+                        <font face="Poppins" color="white">(max 30 characters a-z And A-Z)</font>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">
+                        <font face="Poppins" color="white">DATE OF BIRTH</font>
+                    </label>
+                </td>
+                <td>
+                    <select>
+                        <option>Day</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                    <select>
+                        <option>Month</option>
+                        <option>Jan</option>
+                        <option>Feb</option>
+                    </select>
+                    <select>
+                        <option>Year</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">
+                        <font face="Poppins" color="white">EMAIL ID</font>
+                    </label>
+                </td>
+                <td><input type="email" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="number">
+                        <font face="Poppins" color="white">MOBILE NUMBER</font>
+                    </label>
+                </td>
+                <td><input type="text" maxlength="10" />
+                    <label for="number">
+                        <font face="Poppins" color="white">(10 digit Number)</font>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">
+                        <font face="Poppins" color="white">GENDER</font>
+                    </label>
+                </td>
+                <td>
+                    <input type="radio" name="gender" />
+                    <label for="gender">
+                        <font face="Poppins" color="white"> Male</font>
+                    </label>
+                    <input type="radio" name="gender" />
+                    <label for="gender">
+                        <font face="Poppins" color="white"> Female</font>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">
+                        <font face="Poppins" color="white">ADDRESS</font>
+                    </label>
+                </td>
+                <td><textarea rows="3" cols="40"></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">
+                        <font face="Poppins" color="white">CITY</font>
+                    </label>
+                </td>
+                <td><input type="text" maxlength="30" />
+                    <label for="city">
+                        <font face="Poppins" color="white">(max 30 characters a-z And A-Z)</font>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pincode">
+                        <font face="Poppins" color="white">PIN CODE</font>
+                    </label>
+                </td>
+                <td><input type="text" maxlength="6" />
+                    <label for="pincode">
+                        <font face="Poppins" color="white">(6 digit number)</font>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="state">
+                        <font face="Poppins" color="white">STATE</font>
+                    </label>
+                </td>
+                <td><input type="text" maxlength="30" />
+                    <label for="state">
+                        <font face="Poppins" color="white">(max 30 characters a-z And A-Z)</font>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="country">
+                        <font face="Poppins" color="white">COUNTRY</font>
+                    </label>
+                </td>
+                <td><input type="text" value="India" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="hobbies">
+                        <font face="Poppins" color="white">HOBBIES</font>
+                    </label>
+                </td>
+                <td>
+                    <label for="hobbies">
+                        <font face="Poppins" color="white">Drawing </font>
+                    </label><input type="checkbox" />
+                    <label for="hobbies">
+                        <font face="Poppins" color="white">Singing </font>
+                    </label><input type="checkbox" />
+                    <label for="hobbies">
+                        <font face="Poppins" color="white">Dancing </font>
+                    </label><input type="checkbox" />
+                    <label for="hobbies">
+                        <font face="Poppins" color="white">Sketching </font>
+                    </label><input type="checkbox" /> <br>
+                    <label for="hobbies">
+                        <font face="Poppins" color="white">Others </font>
+                    </label><input type="checkbox" /> <input type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="qualification">
+                        <font face="Poppins" color="white">QUALIFICATION</font>
+                    </label>
+                </td>
+                <td>
+                    <table border="0" bgcolor="#6B5ACD" text="#FFFFFF">
+                        <tr>
+                            <th>
+                                <label for="no">
+                                    <font face="Poppins" color="white">Sl.No.</font>
+                                </label>
+                            </th>
+                            <th>
+                                <label for="exam">
+                                    <font face="Poppins" color="white">Examination</font>
+                                </label>
+                            </th>
+                            <th>
+                                <label for="board">
+                                    <font face="Poppins" color="white">Board</font>
+                                </label>
+                            </th>
+                            <th>
+                                <label for="Percentage">
+                                    <font face="Poppins" color="white">Percentage</font>
+                                </label>
+                            </th>
+                            <th>
+                                <label for="yop">
+                                    <font face="Poppins" color="white">Year of Passing</font>
+                                </label>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="no">
+                                    <font face="Poppins" color="white">1</font>
+                                </label>
+                            </td>
+                            <td>
+                                <label for="class">
+                                    <font face="Poppins" color="white">Class X</font>
+                                </label>
+                            </td>
+                            <td><input type="text" /></td>
+                            <td><input type="text" /></td>
+                            <td><input type="text" /></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="no">
+                                    <font face="Poppins" color="white">2</font>
+                                </label>
+                            </td>
+                            <td>
+                                <label for="class">
+                                    <font face="Poppins" color="white">Class XII</font>
+                                </label>
+                            </td>
+                            <td><input type="text" /></td>
+                            <td><input type="text" /></td>
+                            <td><input type="text" /></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="no">
+                                    <font face="Poppins" color="white">3</font>
+                                </label>
+                            </td>
+                            <td>
+                                <label for="class">
+                                    <font face="Poppins" color="white">Graduation</font>
+                                </label>
+                            </td>
+                            <td><input type="text" /></td>
+                            <td><input type="text" /></td>
+                            <td><input type="text" /></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="no">
+                                    <font face="Poppins" color="white">4</font>
+                                </label>
+                            </td>
+                            <td>
+                                <label for="class">
+                                    <font face="Poppins" color="white">Masters</font>
+                                </label>
+                            </td>
+                            <td><input type="text" /></td>
+                            <td><input type="text" /></td>
+                            <td><input type="text" /></td>
+                        </tr>
+                    </table>
+
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="name">
+                        <font face="Poppins" color="white">(10 char max)</font>&emsp;&emsp;&emsp;<font face="Poppins"
+                            color="white">(upto 2
+                            decimal)</font>
+                    </label>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="course">
+                        <font face="Poppins" color="white">COURSES<br>APPLIED FOR</font>
+                    </label>
+                </td>
+                <td>
+                    <label for="course">
+                        <font face="Poppins" color="white"> BCA</font>
+                    </label><input type="radio" name="course" />
+                    <label for="course">
+                        <font face="Poppins" color="white"> B.Com</font>
+                    </label><input type="radio" name="course" />
+                    <label for="course">
+                        <font face="Poppins" color="white"> B.Sc</font>
+                    </label><input type="radio" name="course" />
+                    <label for="course">
+                        <font face="Poppins" color="white"> B.A</font>
+                    </label><input type="radio" name="course" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Reset" />
+                </td>
+            </tr>
+        </table>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
