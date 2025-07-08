@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 40px;
+            background-color: aliceblue;
+
+
+        }
+
+        .container {
+
+            border: 10px solid #f6ff00;
+            font-size: 0; /* removes whitespace between inline-block elements */
+            width: 100%;
+            box-sizing: border-box;
+
+        }
+
+        .part {
+            display: inline-block;
+            width: 50%; 
+            box-sizing: border-box;
+            vertical-align: top;
+            font-size: 16px;  /* restore font size */
+            border-left: 10px solid #f6ff00;
+            padding: 50px;
+            padding-bottom: 400px;
+            background-color: green;
+
+        }
+
+
+
+        h2 {
+
+            text-align: center;
+           
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="part part1">
+            <h2>Left Part</h2>
+        </div>
+
+        <div class="part part2">
+            <h2>Right Part</h2>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>

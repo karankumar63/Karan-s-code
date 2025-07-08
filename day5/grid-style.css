@@ -1,0 +1,132 @@
+body{
+
+    font-family: sans-serif;
+    margin: 0;  /*it will remove the default margin*/
+    padding: 100px;
+    background-color: aliceblue;
+
+}
+
+.grid-container{
+
+
+display: grid; /*container into css grid layout*/
+grid-template-columns: repeat(3,1fr);  /*create 3 equal width column*/
+gap: 10px;
+padding: 10px;
+background-color: #fff;
+border: 1px solid #ccc;
+
+
+}
+
+.grid-item-1{
+
+
+
+    background-color: #4caf50;
+    color: white;
+    padding: 100px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+.grid-item-2{
+
+
+
+    background-color: red;
+    color: white;
+    padding: 100px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+.grid-item-3{
+
+
+
+    background-color: greenyellow;
+    color: white;
+    padding: 100px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+.grid-item-4{
+
+
+
+    background-color: pink;
+    color: white;
+    padding: 100px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+.grid-item-5{
+
+
+
+    background-color: blue;
+    color: white;
+    padding: 100px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+
+.grid-item-6{
+
+
+
+    background-color: goldenrod;
+    color: white;
+    padding: 100px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+.grid-item-7{
+
+
+
+    background-color: maroon;
+    color: white;
+    padding: 100px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+.grid-item-8{
+
+
+
+    background-color: skyblue;
+    color: white;
+    padding: 100px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+
+.grid-item-9{
+
+
+
+    background-color: orangered;
+    color: white;
+    padding: 100px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 5px;
+}
+
