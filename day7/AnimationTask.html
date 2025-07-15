@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation-1</title>
+    <style>
+        h1 {
+
+
+            color: purple;
+            padding-left: 45%;
+            padding-top: 5%;
+            transition: color 0.5s ease, transform 0.5s ease;
+        }
+
+        h1:hover {
+
+
+            color: #e91e63;
+            animation: bounce 0.6s;
+            transform: scale(1.1);
+        }
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+
+            30% {
+                transform: translateY(-10px);
+            }
+
+            60% {
+                transform: translateY(5px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hover Me!</h1>
+</body>
+
+</html>
