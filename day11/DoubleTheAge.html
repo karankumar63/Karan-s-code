@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Map&Filter</h2>
+    <script>
+        const age=[22,26,19,27,23,17];
+        
+        const double=age.map(n=>n*2);
+
+        document.write("<p><b>Original Age : </b>"+age+"</p><br>")
+
+        document.write("<p><b>Doubled Age :</b>"+double+"</p><br>")
+
+        const filtered=double.filter(n=>n>50);
+            
+        document.write("<p><b>filtered : </b>"+filtered+"</p>") 
+
+    </script>
+</body>
+</html>
